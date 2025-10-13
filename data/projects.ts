@@ -43,7 +43,7 @@ export const projects: Project[] = [
         description: "Exquisite Landscape is a web-based generative AI artwork clock that displays a continuously evolving landscape throughout the day.",
         mediaContent: "/images/exquisite-landscape.png",
         mediaType: "image" as const,
-        ctaLink: "https://cute-duckanoo-d56365.netlify.app",
+        ctaLink: "https://landscapeclock.vercel.app",
         ctaText: "Launch Experience",
         category: "AI, Artwork",
         defaultVisible: true
