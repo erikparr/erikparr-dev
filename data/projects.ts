@@ -19,8 +19,8 @@ export const projects: Project[] = [
         subtitle: "Three.js, WebGL, Shaders, Audio",
         description: "In this R&D project for Indigo Slate, spectral audio data is visualized with advanced WebGL shaders and audio-reactive 3D deformations in 3D space.",
         mediaContent: [
-            "/images/shader001.gif",
-            "/images/shader002.gif"
+            "https://eaca4835oc4rgi75.public.blob.vercel-storage.com/shader001.gif",
+            "https://eaca4835oc4rgi75.public.blob.vercel-storage.com/shader002.gif"
         ],
         mediaType: "image",
         category: "3D, Interactive",
@@ -53,7 +53,7 @@ export const projects: Project[] = [
         title: "AR Headtracking with AirPods",
         subtitle: "",
         description: "This prototype shows the potential of dynamic head tracking and AR interaction with remote content using AirPods. This opens up a range of new spatial interactions, in particular with wayfinding using spatial audio cues. The AirPods send motion data to the iPhone app which then sends data to the server. Multiple apps running on other screen can then leverage the motion data.",
-        mediaContent: "/images/headtracking.gif",
+        mediaContent: "https://eaca4835oc4rgi75.public.blob.vercel-storage.com/headtracking.gif",
         mediaType: "image" as const,
         category: "AR/VR, Interactive",
         defaultVisible: true
@@ -73,7 +73,7 @@ export const projects: Project[] = [
         title: "Interactive 3D Web Campaign",
         subtitle: "",
         description: "Lead Software Development for a seamless 3D web experience that allowed users to experience a new product in a fun way. The experience was built using Three.js and WebGL to create a fully interactive 3D environment that could be explored in the browser.",
-        mediaContent: "/images/suckerpunchv.gif",
+        mediaContent: "https://eaca4835oc4rgi75.public.blob.vercel-storage.com/suckerpunchv.gif",
         mediaType: "image" as const,
         category: "Interactive, 3D",
         defaultVisible: true
@@ -83,7 +83,7 @@ export const projects: Project[] = [
         title: "Touchless Web Prototypes",
         subtitle: "Roles: Lead Developer, AR/VR, javascript, three.js",
         description: "In response to the covid public health crisis, Touchless is a series of prototypes created to envision ways in which touchless technology can be used in physical environments. I was the creative technology lead in the remote manipulation prototype. Here viewers can interact with exhibit artifacts from their smartphone.",
-        mediaContent: "/images/touchless-qr.gif",
+        mediaContent: "https://eaca4835oc4rgi75.public.blob.vercel-storage.com/touchless-qr.gif",
         mediaType: "image" as const,
         category: "AR/VR, Interactive, 3D",
         defaultVisible: true
@@ -93,7 +93,7 @@ export const projects: Project[] = [
         title: "Future Studio Prototypes",
         subtitle: "",
         description: "For the creative research oriented Future Studio at Valtech, I created a number of prototypes. I created this emotion detection prototype to explore the aesthetic and technological potential of realtime facial recognition tools. The protoype captures facial movements and renders it onto a 3D avatar, and tries to infer emotional states based on data from Apple ARKit framework.",
-        mediaContent: "/images/emotion-x.gif",
+        mediaContent: "https://eaca4835oc4rgi75.public.blob.vercel-storage.com/emotion-x.gif",
         mediaType: "image" as const,
         category: "AR/VR, Interactive, 3D",
         defaultVisible: true
@@ -103,7 +103,7 @@ export const projects: Project[] = [
         title: "8th Wall AR Experiments",
         subtitle: "",
         description: "A prototype for 8th Wall that demonstrates an interactive AR experience that allows users to explore a 3D space with their mobile device.",
-        mediaContent: "/images/8thWall-is-xr.gif",
+        mediaContent: "https://eaca4835oc4rgi75.public.blob.vercel-storage.com/8thWall-is-xr.gif",
         mediaType: "image" as const,
         category: "AR/VR",
         defaultVisible: true,
@@ -114,7 +114,7 @@ export const projects: Project[] = [
         title: "WebXR Experiments",
         subtitle: "Roles: Lead Developer, AR/VR, javascript, three.js",
         description: " Experiments with fully web-based XR using Three.js",
-        mediaContent: "/images/waterCube.gif",
+        mediaContent: "https://eaca4835oc4rgi75.public.blob.vercel-storage.com/waterCube.gif",
         mediaType: "image" as const,
         category: "AR/VR, 3D",
         defaultVisible: true,
@@ -125,7 +125,7 @@ export const projects: Project[] = [
         title: " ",
         subtitle: "",
         description: "AR 3D drawing system draws the outline of 3d objects with custom software",
-        mediaContent: "/images/ribbonSwarm.gif",
+        mediaContent: "https://eaca4835oc4rgi75.public.blob.vercel-storage.com/ribbonSwarm.gif",
         mediaType: "image" as const,
         category: "AR/VR, 3D",
         defaultVisible: true,
@@ -146,7 +146,7 @@ export const projects: Project[] = [
         title: "Permanent Installation at Microsoft Cybercrime Center",
         subtitle: "Roles: Software Development, Creative Technology, Interactive Data Art and Exhibition Design",
         description: "At The Office for Creative Research, we created a permanent installation for the Microsoft Cybercrime enter which maps and visualizes botnets in the wild to give researchers a more intuitive way of understanding their activity over time. Using realtime datasets from millions of infected computers, we created an interactive application that allowed the data to be explored visually and sonically.",
-        mediaContent: "/images/ocr.gif",
+        mediaContent: "https://eaca4835oc4rgi75.public.blob.vercel-storage.com/ocr.gif",
         mediaType: "image" as const,
         category: "Interactive, Exhibition/Museum",
         defaultVisible: true
@@ -257,7 +257,7 @@ export const projects: Project[] = [
         title: " ",
         subtitle: "",
         description: "AR 3D drawing system draws the outline of 3d objects with custom software",
-        mediaContent: "/images/cubesWave.gif",
+        mediaContent: "https://eaca4835oc4rgi75.public.blob.vercel-storage.com/cubesWave.gif",
         mediaType: "image" as const,
         category: "AR/VR, 3D",
         defaultVisible: false
