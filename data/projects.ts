@@ -63,7 +63,7 @@ export const projects: Project[] = [
         title: "Immersive Motion Drawer",
         subtitle: "",
         description: "This prototype uses immersive 3D particle to transform body motion into an immersive interactive experience. The technology behind the demo has two main components: 1. an interactive 3D particle environment powered by Unity3d software, and 2. a web-app which uses rotation data from a mobile device to remotely interact with the interactive 3D display. The system also utilizes a Firebase realtime database to transmit the data from the web app to the interactive display.",
-        mediaContent: "/images/immersive-motion.gif",
+        mediaContent: "https://eaca4835oc4rgi75.public.blob.vercel-storage.com/immersive-motion.gif",
         mediaType: "image" as const,
         category: "AR/VR, 3D, Interactive",
         defaultVisible: true

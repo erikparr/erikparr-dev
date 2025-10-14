@@ -3,7 +3,7 @@
       <h2 class="project-title">Immersive Motion Drawer</h2>
       <div class="project-content">
         <div class="project-image">
-          <img src="~/assets/images/immersive-motion.gif" alt="AR Headtracking with AirPods demonstration" />
+          <img src="https://eaca4835oc4rgi75.public.blob.vercel-storage.com/immersive-motion.gif" alt="AR Headtracking with AirPods demonstration" />
         </div>
         <div class="project-description">
           <p>
