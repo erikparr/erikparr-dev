@@ -25,7 +25,7 @@ export const projects: Project[] = [
     },
     {
         id: 1,
-        title: "Extrasensory — Digital Product Studio Launch",
+        title: "Extrasensory — Digital Product Studio",
         subtitle: "Roles: Founder, Product Design, Full-Stack Development, Brand Strategy",
         description: "Founded Extrasensory, a digital product studio focused on creating professional tools for creative expression. Led the complete product development lifecycle from concept to commercial launch, establishing brand identity, technical infrastructure, and go-to-market strategy.<br><br>First product: VEX MIDI Expression, a cross-platform audio plugin that transforms MIDI controllers into expressive instruments using real-time physics simulation. Developed hybrid architecture combining JUCE C++ for DSP with React/TypeScript UI, achieving sub-10ms latency with sample-accurate MIDI timing.<br><br>Built automated CI/CD pipeline for cross-platform distribution (macOS/Windows/Linux, VST3/AU formats). Designed and launched e-commerce platform with Stripe integration and automated delivery system. Product successfully launched and actively used by music producers worldwide.",
         mediaContent: "/images/vex.png",
