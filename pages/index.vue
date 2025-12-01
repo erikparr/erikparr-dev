@@ -1,34 +1,25 @@
 <template>
   <div class="container">
     <header>
-      <h1>ERIK PARR</h1>
+      <h1>Erik Parr</h1>
+      <h2 class="role-line">Design Engineer / Design Technologist</h2>
+      <p class="domain-line">Interactive Systems · Data Visualization · AI-Driven Tools </p>
+      <p class="hero-paragraph">
+        Designing interactive systems—advanced product tools and UIs, immersive experiences, and AI-driven interfaces.
+        End-to-end ownership from exploratory prototyping to stable, production-quality implementations for advanced
+        product teams.
+      </p>
     </header>
-    
-    <Statement 
-      :isExpanded="activeSection === 'statement'"
-      @expand="toggleSection('statement')"
-      @collapse="toggleSection('portfolio')"
-      previewText="About The Studio"
-    />
-    
-    <Portfolio 
-      :isCollapsed="activeSection === 'statement'"
-      @collapse="toggleSection('portfolio')"
-      previewText="View Portfolio"
-    />
+
+    <DesignEngineeringSkills />
+
+    <Portfolio :isCollapsed="false" @collapse="() => { }" previewText="View Portfolio" />
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
-import Statement from '~/components/Statement.vue';
+import DesignEngineeringSkills from '~/components/DesignEngineeringSkills.vue';
 import Portfolio from '~/components/Portfolio.vue';
-
-const activeSection = ref('portfolio');
-
-const toggleSection = (section: string) => {
-  activeSection.value = section;
-};
 </script>
 
 <style>
@@ -50,12 +41,36 @@ body {
 
 header {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 h1 {
-  font-size: 5rem;
-  font-weight: 100;
+  font-size: 4rem;
+  font-weight: 200;
+  color: var(--color-text);
+  margin-bottom: 0.5rem;
+}
+
+.role-line {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #7AA3D1;
+  margin-bottom: 0.5rem;
+}
+
+.domain-line {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #888;
+  margin-bottom: 2rem;
+}
+
+.hero-paragraph {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.7;
   color: var(--color-text);
 }
 
@@ -65,7 +80,19 @@ h1 {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+  }
+
+  .role-line {
+    font-size: 1.1rem;
+  }
+
+  .domain-line {
+    font-size: 0.95rem;
+  }
+
+  .hero-paragraph {
+    font-size: 1rem;
   }
 }
 </style>

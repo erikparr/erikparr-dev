@@ -120,7 +120,7 @@ const setActiveCategory = (category: string) => {
 
 .category-filter button.active {
   background-color: var(--color-primary);
-  color: #000;
+  color: var(--color-background);
 }
 
 .category-filter button:hover {

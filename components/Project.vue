@@ -28,8 +28,8 @@
         </template>
       </div>
       <div class="project-description" v-html="description"></div>
-      <a v-if="ctaLink" :href="ctaLink" target="_blank" rel="noopener noreferrer" class="cta-button">
-        {{ ctaText || 'Learn More' }}
+      <a v-if="ctaLink" :href="ctaLink" target="_blank" rel="noopener noreferrer" class="cta-link">
+        {{ ctaText || 'Learn More' }} →
       </a>
     </div>
   </section>
@@ -115,19 +115,17 @@ const props = defineProps<ProjectProps>();
   color: var(--color-text);
 }
 
-.cta-button {
+.cta-link {
   display: inline-block;
-  padding: 10px 20px;
-  background-color: var(--color-primary);
-  color: #000;
+  margin-top: 1rem;
+  color: #888;
   text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  margin-top: 15px;
-  transition: background-color 0.3s ease;
+  font-weight: 400;
+  font-size: 1rem;
+  transition: color 0.2s ease;
 }
 
-.cta-button:hover {
-  background-color: var(--color-secondary);
+.cta-link:hover {
+  color: var(--color-text);
 }
 </style>
