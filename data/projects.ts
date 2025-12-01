@@ -17,7 +17,7 @@ export const projects: Project[] = [
         id: 0,
         title: "Intuitive Surgical — Advanced Product Design",
         subtitle: "Roles: Design Technologist, Data Visualization, AI/ML",
-        description: "Leading data-driven prototypes for the Advanced Product Design team at Intuitive Surgical. Advanced R&D for video, AI and data insights applications to enhance surgical robotics capabilities.",
+        description: "<strong>Designing and engineering advanced prototypes for future surgical video and analytics tools, exploring new ways for clinicians and researchers to navigate, understand, and summarize complex procedures.</strong><br><br>Sole design engineer / design technologist embedded in an advanced product design team, responsible for building future-facing prototypes for surgical video and data tools. Developed internal case-explorer concepts that link procedure video with rich system data and event timelines, and prototyped interfaces for structured procedure insight and automated post-case review.",
         mediaContent: "/images/intuitive.png",
         mediaType: "image" as const,
         category: "Interactive, AI",

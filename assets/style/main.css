@@ -114,10 +114,74 @@
     body {
       background-color: white;
       color: black;
+      font-size: 11pt;
+      line-height: 1.4;
     }
-  
+
     a {
       color: black;
-      text-decoration: underline;
+      text-decoration: none;
+    }
+
+    /* Hide interactive elements */
+    .category-filter,
+    .cta-link {
+      display: none !important;
+    }
+
+    /* Page break control */
+    .project {
+      page-break-inside: avoid;
+      break-inside: avoid;
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .skills-section {
+      page-break-inside: avoid;
+      break-inside: avoid;
+      background: none;
+      border: 1px solid #ccc;
+      margin-bottom: 2rem;
+    }
+
+    /* Ensure images don't break */
+    img, iframe {
+      page-break-inside: avoid;
+      break-inside: avoid;
+      max-height: 400px;
+      object-fit: contain;
+    }
+
+    /* Header spacing */
+    header {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid black;
+    }
+
+    h1, h2, h3 {
+      color: black;
+      page-break-after: avoid;
+      break-after: avoid;
+    }
+
+    /* Tighten spacing */
+    .container {
+      padding: 0;
+      max-width: 100%;
+    }
+
+    .project-description {
+      font-size: 10pt;
+    }
+
+    .skill-group h3 {
+      color: black;
+    }
+
+    .skill-group li::before {
+      color: black;
     }
   }

@@ -113,6 +113,7 @@ const props = defineProps<ProjectProps>();
   font-size: 1.1rem;
   line-height: 1.6;
   color: var(--color-text);
+  text-align: left;
 }
 
 .cta-link {
