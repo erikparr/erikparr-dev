@@ -10,8 +10,14 @@
           </div>
         </template>
         <template v-else>
+          <NuxtLink v-if="mediaType === 'image' && ctaLink && ctaLink.startsWith('/')" :to="ctaLink" class="media-link">
+            <img :src="mediaContent" :alt="title" :class="customClass" />
+          </NuxtLink>
+          <a v-else-if="mediaType === 'image' && ctaLink" :href="ctaLink" target="_blank" rel="noopener noreferrer" class="media-link">
+            <img :src="mediaContent" :alt="title" :class="customClass" />
+          </a>
           <img
-            v-if="mediaType === 'image'"
+            v-else-if="mediaType === 'image'"
             :src="mediaContent"
             :alt="title"
             :class="customClass"
@@ -140,5 +146,17 @@ const props = defineProps<ProjectProps>();
 
 .cta-link:hover {
   color: var(--color-text);
+}
+
+.media-link {
+  display: block;
+}
+
+.media-link img {
+  transition: opacity 0.2s ease;
+}
+
+.media-link:hover img {
+  opacity: 0.85;
 }
 </style>

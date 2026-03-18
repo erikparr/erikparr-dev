@@ -24,6 +24,30 @@ export const projects: Project[] = [
         defaultVisible: true
     },
     {
+        id: 26,
+        title: "UX RESEARCH: Agentic 3D Environments",
+        subtitle: "Roles: UX Research, AI/ML, 3D Visualization",
+        description: "Ongoing research into the capabilities of Agentic UX where AI agents are natively equipped with visualization capabilities to communicate more effectively. This case study shows a working agent that can traverse and display user queries in a 3D mapped environment.",
+        mediaContent: "/images/omnitope.png",
+        mediaType: "image" as const,
+        category: "AI, 3D, Interactive",
+        ctaLink: "https://omnitope-viewer-o4wbtktqi-erik-parrs-projects.vercel.app",
+        ctaText: "Launch Experience",
+        defaultVisible: true
+    },
+    {
+        id: 27,
+        title: "Design System Case Study: Extrasensory Studio",
+        subtitle: "Roles: Design Engineer",
+        description: "Built a full bidirectional pipeline between a production Next.js codebase and Figma using Tokens Studio, Figma MCP, and Claude Code as the orchestration layer. Documented the complete workflow from token extraction to component conversion.",
+        mediaContent: "/images/design-system-hero.png",
+        mediaType: "image" as const,
+        category: "AI, Interactive",
+        ctaLink: "/design-system",
+        ctaText: "View Case Study",
+        defaultVisible: true
+    },
+    {
         id: 1,
         title: "FOAM — Design / Development / Product",
         subtitle: "Concept to Product Launch in 3 weeks",
